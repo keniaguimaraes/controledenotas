@@ -1,24 +1,30 @@
-# README
+# Controle de Notas
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- Link para app do projeto: http://controledenotas.herokuapp.com
 
-Things you may want to cover:
 
-* Ruby version
+ - [Apresentação](#apresentacao)
+ - [Objetivos](#objetivos)
+ - [Versão](#versao)
+ - [Colaboradores](#colaboradores)
+ - [Dicas](#dicas)
+ 
+## Apresentacao 
 
-* System dependencies
 
-* Configuration
+## Objetivos
 
-* Database creation
 
-* Database initialization
+## Versao
+- Versão 1.0
 
-* How to run the test suite
+## Colaboradores 
+ - Kênia Guimarães
 
-* Services (job queues, cache servers, search engines, etc.)
+ 
+## Dicas
+ - rails server -b $IP -p $PORT
+ - bundle install
+ - rake db:migrate
+ - rake db:seed
 
-* Deployment instructions
-
-* ...

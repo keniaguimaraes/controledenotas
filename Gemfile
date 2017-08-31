@@ -11,7 +11,7 @@ gem 'rails', '~> 5.1.3'
 
 
 # Gems do projeto
-gem 'remotipart', github: 'mshibuya/remotipart'
+
 
 #Biblioteca de internacionalização 
 gem 'rails-i18n'
