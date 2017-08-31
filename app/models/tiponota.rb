@@ -1,3 +1,3 @@
 class Tiponota < ApplicationRecord
-    has_many:notas
+    has_many:nota
 end

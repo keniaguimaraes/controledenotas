@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170831173654) do
+ActiveRecord::Schema.define(version: 20170831202520) do
 
   create_table "funcionarios", force: :cascade do |t|
     t.string "nome"
@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 20170831173654) do
 
   create_table "nota", force: :cascade do |t|
     t.integer "funcionario_id"
-    t.integer "tiponota"
+    t.integer "tiponota_id"
     t.string "destinatario"
     t.date "data"
     t.integer "tipoassunto_id"

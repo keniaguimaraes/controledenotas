@@ -25,7 +25,7 @@ RailsAdmin.config do |config|
   
      config.show_gravatar = true
 
-  config.main_app_name = ["Notas   ", "       "]
+  config.main_app_name = ["Controle de Notas   ", "       "]
 
    config.navigation_static_label = "Lins Úteis"
    config.navigation_static_links = {
@@ -33,6 +33,7 @@ RailsAdmin.config do |config|
   }
  
  config.model Funcionario do
+   
     navigation_icon 'fa fa-check'  #inclui icone
     weight -4                    #configura a ordem no menu lateral
    create do
@@ -142,8 +143,6 @@ RailsAdmin.config do |config|
  end    
 
  
- 
-
   config.actions do
     dashboard do
       statistics true

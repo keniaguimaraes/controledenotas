@@ -1,3 +1,3 @@
 class Tipoassunto < ApplicationRecord
-    has_many:notas
+    has_many:nota
 end
