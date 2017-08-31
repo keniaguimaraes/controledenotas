@@ -25,6 +25,7 @@
 ## Dicas
  - rails server -b $IP -p $PORT
  - bundle install
+ - rails g rails_admin:install
  - rake db:migrate
  - rake db:seed
 

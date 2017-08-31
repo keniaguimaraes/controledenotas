@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  funcionario_id: 1
+  tiponota: 1
+  destinatario: MyString
+  data: 2017-08-31
+  tipoassunto_id: 1
+  assunto: MyString
+  descricao: MyText
+
+two:
+  funcionario_id: 1
+  tiponota: 1
+  destinatario: MyString
+  data: 2017-08-31
+  tipoassunto_id: 1
+  assunto: MyString
+  descricao: MyText

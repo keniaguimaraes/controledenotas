@@ -12,6 +12,9 @@ gem 'rails', '~> 5.1.3'
 
 # Gems do projeto
 
+# Gem Painel Adm
+gem 'rails_admin', github: 'sferik/rails_admin'
+gem 'rails_admin_rollincode', '~> 1.0'
 
 #Biblioteca de internacionalização 
 gem 'rails-i18n'
@@ -26,6 +29,10 @@ gem "devise"
 gem 'devise-i18n'
 gem 'cancancan'
 
+
+gem 'remotipart', github: 'mshibuya/remotipart'
+gem 'rails_admin', github: 'sferik/rails_admin'
+gem 'rails_admin_rollincode', '~> 1.0'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
 # Use Puma as the app server
