@@ -7,11 +7,18 @@ pt-BR:
   activerecord:
     models:
       tiponota:
-        one: "Tiponota"
-        other: "Tipo Notas"
-    funcionario:
+        one: "Tipo nota"
+        other: "Tipo de Notas"
+      funcionario:
         one: "Funcionário"
         other: "Funcionários"
+      nota:
+        one: "Notas"
+        other: "Notas"   
+      tipoassunto:
+       one: "Tipo de Assunto"
+       other: "Tipo de Assuntos" 
+      
   views:
   admin:
     home:

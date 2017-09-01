@@ -33,8 +33,8 @@ RailsAdmin.config do |config|
   }
  
  config.model Funcionario do
-   
-    navigation_icon 'fa fa-check'  #inclui icone
+  
+    navigation_icon 'fa fa-user-plus'  #inclui icone
     weight -4                    #configura a ordem no menu lateral
    create do
       configure :notas do
@@ -74,7 +74,7 @@ RailsAdmin.config do |config|
  
   
  config.model Tiponota do
-    navigation_icon 'fa fa-check'  #inclui icone
+    navigation_icon 'fa fa-folder'  #inclui icone
     weight -2                    #configura a ordem no menu lateral
     
        create do
@@ -106,7 +106,7 @@ RailsAdmin.config do |config|
 
   
  config.model Tipoassunto do
-    navigation_icon 'fa fa-check'  #inclui icone
+    navigation_icon 'fa fa-comment-o'  #inclui icone
     weight -3                   #configura a ordem no menu lateral
    
      create do
@@ -137,10 +137,43 @@ RailsAdmin.config do |config|
       
         
  config.model Nota do
-    navigation_icon 'fa fa-check'  #inclui icone
+   navigation_icon 'fa fa-sticky-note-o'  #inclui icone
    weight -1                   #configura a ordem no menu lateral
+   
+      create do 
     
- end    
+          field :funcionario_id , :enum do
+            enum do
+              Funcionario.all.map{ |a| [ a.nome, a.id ] }
+            end
+           end
+          
+          field :tiponota_id , :enum do
+            enum do
+              Tiponota.all.map{ |c| [ c.descricao, c.id ] }
+            end
+          end
+          
+          field:data do
+                label "data"
+          end  
+          
+          field :tipoassunto , :enum do
+            enum do
+             Tipoassunto.all.map{ |b| [ b.descricao, b.id ] }
+            end
+          end  
+          field:assunto do
+                 label "Assunto"
+          end  
+          field:descricao do
+                 label "Descrição"
+          end  
+    
+      
+      end
+end
+  
 
  
   config.actions do
