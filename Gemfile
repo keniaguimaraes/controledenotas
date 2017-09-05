@@ -9,7 +9,7 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.3'
 
-
+gem 'yarn'
 # Gems do projeto
 
 # Gem Painel Adm
@@ -31,8 +31,7 @@ gem 'cancancan'
 
 
 gem 'remotipart', github: 'mshibuya/remotipart'
-gem 'rails_admin', github: 'sferik/rails_admin'
-gem 'rails_admin_rollincode', '~> 1.0'
+gem 'rails_12factor', group: :production
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
 # Use Puma as the app server

@@ -10,7 +10,7 @@ Rails.application.routes.draw do
     get '/login' => 'devise/sessions#new'
     get '/logout' => 'devise/sessions#destroy'
     get '/perfil' => 'devise/registrations#edit'
-    get '/novo' => 'devise/registrations#new'
+    get '/novo' => 'devise/registrations#create'
     get '/user' => 'user#index'
   end
   
