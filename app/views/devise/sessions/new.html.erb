@@ -1,0 +1,27 @@
+
+
+
+<div class="login-page">
+<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+  <div class="form">
+
+    <form class="login-form">
+     <b><p class="message2"> <%= f.label :email %><br /></p></b>
+    <%= f.email_field :email, autofocus: true %>
+    
+    
+     <b><p class="message2">  <%= f.label :password %><br /></p> </b>
+    <%= f.password_field :password, autocomplete: "off" %>
+    
+   
+       <%= f.submit "Entrar" %>
+       
+   
+ <p class="message">Não é Registarado? <a href="/novo">Crie uma conta</a></p>
+      
+    </form>
+  </div>
+</div>
+
+<% end %>
+
