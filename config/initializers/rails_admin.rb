@@ -31,7 +31,10 @@ RailsAdmin.config do |config|
     config.navigation_static_links = {
    'GitHub' => 'http://github.com/keniaguimaraes' 
   }
- 
+
+
+
+
  config.model Funcionario do
   
     navigation_icon 'fa fa-user-plus'  #inclui icone
@@ -291,14 +294,21 @@ RailsAdmin.config do |config|
           field:descricao do
                  label "Descrição"
           end  
-       
      end   
       
       
-   
 end
 
-   
+  config.model User do
+   weight 0 
+  navigation_icon 'fa fa-user-circle-o'  #inclui icone
+  
+  list do 
+    field :email
+  end  
+
+ end
+  
 
 
  

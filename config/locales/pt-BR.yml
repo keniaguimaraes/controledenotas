@@ -18,6 +18,9 @@ pt-BR:
       tipoassunto:
        one: "Tipo de Assunto"
        other: "Tipo de Assuntos" 
+      user:
+       one: "Usuário"
+       other: "Usuários" 
       
   views:
   admin:
