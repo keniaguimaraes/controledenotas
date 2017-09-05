@@ -3,6 +3,7 @@
 
 <div class="login-page">
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+  <%= devise_error_messages! %>
   <div class="form">
 
     <form class="login-form">
@@ -17,7 +18,7 @@
        <%= f.submit "Entrar" %>
        
    
- <p class="message">Não é Registarado? <a href="/novo">Crie uma conta</a></p>
+ <p class="message">Não é Registarado? <a href="sistema/cadastrar">Crie uma conta</a></p>
       
     </form>
   </div>

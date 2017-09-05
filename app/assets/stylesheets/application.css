@@ -17,19 +17,26 @@
 
 .login-page {
   width: 360px;
-  padding: 10% 0 0;
+  padding: 8% 0 0;
   margin: auto;
 }
+
 .form {
   position: relative;
   z-index: 1;
   background: #FFFFFF;
+ filter:Alpha(opacity=30);
   max-width: 360px;
   margin: 0 auto 100px;
   padding: 45px;
   text-align: left;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  opacity: 0.9;
+  -moz-opacity: 0.8;
+  filter: alpha(opacity=80);
+  -khtml-opacity: 0.8;
 }
+
 .form input {
   font-family: "Roboto", sans-serif;
   outline: 0;
@@ -37,7 +44,7 @@
   width: 100%;
   border: 0;
   margin: 0 0 15px;
-  padding: 15px;
+  padding: 12px;
   box-sizing: border-box;
   font-size: 14px;
 }
@@ -109,6 +116,24 @@
   color: #b3b3b3;
   font-size: 15px;
 }
+
+
+.form submit {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+
 body {
 
 
