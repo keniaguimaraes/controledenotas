@@ -2,7 +2,6 @@
 
 - Link para app do projeto: http://controledenotas.herokuapp.com
 
-
  - [Apresentação](#apresentacao)
  - [Objetivos](#objetivos)
  - [Versão](#versao)
@@ -21,11 +20,9 @@
 ## Colaboradores 
  - Kênia Guimarães
 
- 
 ## Dicas
- - rails server -b $IP -p $PORT
+ - rails server -b $IP -p $PORT  - IDE c9
  - bundle install
- - rails g rails_admin:install
  - rake db:migrate
  - rake db:seed
 

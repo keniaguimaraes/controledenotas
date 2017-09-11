@@ -25,7 +25,7 @@ RailsAdmin.config do |config|
   
      config.show_gravatar = true
 
-  config.main_app_name = ["Controle de Notas   ", "       "]
+  config.main_app_name = ["Controle de Notas          ", "               "]
 
    config.navigation_static_label = "Links Úteis"
     config.navigation_static_links = {
@@ -295,7 +295,6 @@ RailsAdmin.config do |config|
                  label "Descrição"
           end  
      end   
-      
       
 end
 
