@@ -214,6 +214,10 @@ RailsAdmin.config do |config|
           field:descricao do
                  label "Descrição"
           end  
+          
+          field:anexo, :carrierwave do 
+            label "Anexo"
+          end  
       end
    
    
@@ -326,6 +330,11 @@ RailsAdmin.config do |config|
           field:descricao do
                  label "Descrição"
           end  
+          
+           field:anexo, :carrierwave do 
+            label "Anexo"
+          end 
+          
      end   
      
      

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170905011242) do
+ActiveRecord::Schema.define(version: 20170911162205) do
 
   create_table "funcionarios", force: :cascade do |t|
     t.string "nome"
@@ -19,17 +19,8 @@ ActiveRecord::Schema.define(version: 20170905011242) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "nota", force: :cascade do |t|
-    t.integer "funcionario_id"
-    t.integer "tiponota_id"
-    t.string "destinatario"
-    t.date "data"
-    t.integer "tipoassunto_id"
-    t.string "assunto"
-    t.text "descricao"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
+# Could not dump table "nota" because of following StandardError
+#   Unknown type 'json' for column 'anexo2'
 
   create_table "tipoassuntos", force: :cascade do |t|
     t.string "descricao"
