@@ -9,15 +9,11 @@
     <form class="login-form">
      <b><p class="message2"> <%= f.label :email %><br /></p></b>
     <%= f.email_field :email, autofocus: true %>
-    
-    
+
      <b><p class="message2">  <%= f.label :password %><br /></p> </b>
     <%= f.password_field :password, autocomplete: "off" %>
-    
-   
-       <%= f.submit "Entrar" %>
-       
-   
+    <%= f.submit "Entrar" %>
+      
  <p class="message">Não é Registarado? <a href="#">Crie uma conta</a></p>
       
     </form>

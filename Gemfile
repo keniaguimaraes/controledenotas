@@ -32,6 +32,10 @@ gem 'cancancan'
 gem 'rubocop', require: false
 gem 'remotipart', github: 'mshibuya/remotipart'
 gem 'rails_12factor', group: :production
+
+
+gem 'carrierwave'
+
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
 # Use Puma as the app server
