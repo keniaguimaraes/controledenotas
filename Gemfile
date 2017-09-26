@@ -29,7 +29,6 @@ gem "devise"
 gem 'devise-i18n'
 gem 'cancancan'
 
-gem 'rubocop', require: false
 gem 'remotipart', github: 'mshibuya/remotipart'
 gem 'rails_12factor', group: :production
 
@@ -77,6 +76,7 @@ end
 
 group :development, :test do
   gem 'sqlite3'
+  gem 'rubocop', require: false
   # ...
 end
 group :production do
